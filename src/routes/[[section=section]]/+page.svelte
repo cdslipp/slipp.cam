@@ -9,7 +9,7 @@
 		{ slug: 'software', title: 'little software projects' },
 		{ slug: 'theatre', title: 'theatre projects' },
 		{ slug: 'collaborators', title: 'people I\'ve worked with' },
-		{ slug: 'stuff-i-use', title: 'stuff I use' },
+		{ slug: 'stuff-i-use', title: 'stuff I use (and love)' },
 		{ slug: 'links', title: 'links' }
 	];
 </script>
@@ -27,10 +27,10 @@
 
 {#snippet collaborators()}
 	<ul>
-		<li>MT Space</li>
-		<li>Unwrap Theatre</li>
-		<li>Green Light Arts</li>
-		<li>Inter Arts Matrix</li>
+		<li><ExternalLink href="https://mtspace.ca">MT Space</ExternalLink></li>
+		<li><ExternalLink href="https://unwraptheatre.ca">Unwrap Theatre</ExternalLink></li>
+		<li><ExternalLink href="https://greenlight-arts.com">Green Light Arts</ExternalLink></li>
+		<li><ExternalLink href="https://interartsmatrix.ca">Inter Arts Matrix</ExternalLink></li>
 	</ul>
 {/snippet}
 
@@ -39,12 +39,12 @@
 	<ul>
 		<li><ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — Stage plot creator for live music. Plan your stage layout, equipment placement, and input lists with a drag-and-drop editor.</li>
 		<li><ExternalLink href="https://slidemerge.vercel.app">SlideMerge</ExternalLink> — Merge PDFs and images in your browser. Nothing gets uploaded, it all runs locally.</li>
-		<li><ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink></li>
+		<li><ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink> — Made for my wife to run music bingo at Grad House.</li>
 	</ul>
 {/snippet}
 
 {#snippet stuffILike()}
-	<ul>
+	<ul class="two-col">
 		<li><ExternalLink href="https://qlab.app">QLab</ExternalLink></li>
 		<li><ExternalLink href="https://bitfocus.io/companion">Bitfocus Companion</ExternalLink></li>
 		<li><ExternalLink href="https://www.getontime.no/">Ontime</ExternalLink></li>
@@ -53,6 +53,9 @@
 		<li><ExternalLink href="https://sqlite.org/wasm">SQLite WASM</ExternalLink></li>
 		<li><ExternalLink href="https://directus.io">Directus</ExternalLink></li>
 		<li><ExternalLink href="https://www.steinberg.net/dorico/">Dorico</ExternalLink></li>
+		<li><ExternalLink href="https://37signals.com">37signals</ExternalLink></li>
+		<li><ExternalLink href="https://orbstack.dev">OrbStack</ExternalLink></li>
+		<li><ExternalLink href="https://omarchy.org">Omarchy</ExternalLink></li>
 	</ul>
 {/snippet}
 

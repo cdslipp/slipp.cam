@@ -76,3 +76,8 @@ html.dark h2 a:visited,
 html.dark h2 a:hover {
 	color: inherit;
 }
+
+ul.two-col {
+	columns: 2;
+	column-gap: 1em;
+}
