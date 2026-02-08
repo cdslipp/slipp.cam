@@ -39,6 +39,7 @@
 	<ul>
 		<li><ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — Stage plot creator for live music. Plan your stage layout, equipment placement, and input lists with a drag-and-drop editor.</li>
 		<li><ExternalLink href="https://slidemerge.vercel.app">SlideMerge</ExternalLink> — Merge PDFs and images in your browser. Nothing gets uploaded, it all runs locally.</li>
+		<li><ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink></li>
 	</ul>
 {/snippet}
 
