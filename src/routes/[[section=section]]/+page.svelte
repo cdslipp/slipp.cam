@@ -6,21 +6,17 @@
 	let activeSection = $derived(data.section);
 
 	const sections = [
-		{ slug: 'software', title: 'little software projects' },
+		{ slug: 'software', title: 'software projects' },
 		{ slug: 'theatre', title: 'theatre projects' },
-		{ slug: 'collaborators', title: 'people I\'ve worked with' },
-		{ slug: 'stuff-i-use', title: 'stuff I use (and love)' },
+		{ slug: 'collaborators', title: "who I've worked with" },
+		{ slug: 'stuff-i-use', title: 'stuff I use' },
 		{ slug: 'links', title: 'links' }
 	];
 </script>
 
 {#snippet theatre()}
 	<ul>
-		<li>Lighting Designer — <i>Homecoming</i>, MT Space (2025)</li>
-		<li>Lighting Designer — <i>Before I Die</i> by Nada Homsi, MT Space (2025)</li>
 		<li>Lighting Designer — <i>Sometimes It Snows In April</i></li>
-		<li>Production Manager — IMPACT Festival 2023 & 2025</li>
-		<li>Co-Technical Director — The Registry Theatre</li>
 		<li>Composer/Lyricist — <i>All Art Is Quite Useless</i> (2020)</li>
 	</ul>
 {/snippet}
@@ -35,11 +31,23 @@
 {/snippet}
 
 {#snippet software()}
-	<p>I'm big on making things that are local-first: client-side apps (normally built with SvelteKit) where your data stays on your device.</p>
+	<p>
+		I'm big on making things that are local-first: client-side apps (normally built with SvelteKit)
+		where your data stays on your device.
+	</p>
 	<ul>
-		<li><ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — Stage plot creator for live music. Plan your stage layout, equipment placement, and input lists with a drag-and-drop editor.</li>
-		<li><ExternalLink href="https://slidemerge.vercel.app">SlideMerge</ExternalLink> — Merge PDFs and images in your browser. Nothing gets uploaded, it all runs locally.</li>
-		<li><ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink> — Made for my wife to run music bingo at Grad House.</li>
+		<li>
+			<ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — Stage plot creator for
+			live music. Plan your stage layout, equipment placement, and input lists with a drag-and-drop editor.
+		</li>
+		<li>
+			<ExternalLink href="https://slidemerge.vercel.app">SlideMerge</ExternalLink> — Make PDF documents
+			into powerpoints quickly. Nothing gets uploaded, it all runs locally.
+		</li>
+		<li>
+			<ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink> — Made for my wife to
+			run music bingo.
+		</li>
 	</ul>
 {/snippet}
 
@@ -56,6 +64,7 @@
 		<li><ExternalLink href="https://37signals.com">37signals</ExternalLink></li>
 		<li><ExternalLink href="https://orbstack.dev">OrbStack</ExternalLink></li>
 		<li><ExternalLink href="https://omarchy.org">Omarchy</ExternalLink></li>
+		<li><ExternalLink href="https://bun.sh">Bun</ExternalLink></li>
 	</ul>
 {/snippet}
 
@@ -80,11 +89,15 @@
 	{/if}
 {/snippet}
 
-<h1>Hi!<br>I'm Cameron</h1>
-<hr>
+<h1>Hi!<br />I'm Cameron</h1>
+<hr />
 <p>I help make live events happen. I also love to make random little software things.</p>
-<p>Need stage management, production management, or other live production services? Find me at <ExternalLink href="https://sherwoodsystems.com">Sherwood Systems</ExternalLink>.</p>
-<hr>
+<p>
+	Need stage management, production management, or other live production services? Find me at <ExternalLink
+		href="https://sherwoodsystems.com">Sherwood Systems</ExternalLink
+	>.
+</p>
+<hr />
 
 {#each sections as s (s.slug)}
 	<h2><a href={activeSection === s.slug ? '/' : '/' + s.slug}>{s.title}</a></h2>
@@ -93,7 +106,7 @@
 			{@render sectionContent(s.slug)}
 		</div>
 	{/if}
-	<hr>
+	<hr />
 {/each}
 
 <p><i>Last updated: February 2026</i></p>
