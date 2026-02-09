@@ -32,17 +32,17 @@
 
 {#snippet software()}
 	<p>
-		I'm big on making things that are local-first: client-side apps (normally built with SvelteKit)
-		where your data stays on your device.
+		I'm big on making things that are local-first: client-side apps (normally with SvelteKit) where
+		your data stays on your device
 	</p>
 	<ul>
 		<li>
-			<ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — Stage plot creator for
-			live music. Plan your stage layout, equipment placement, and input lists with a drag-and-drop editor.
+			<ExternalLink href="https://plot.slipp.cam">Lost the Plot</ExternalLink> — A stage plot/input list
+			creator for live music
 		</li>
 		<li>
 			<ExternalLink href="https://slidemerge.vercel.app">SlideMerge</ExternalLink> — Make PDF documents
-			into powerpoints quickly. Nothing gets uploaded, it all runs locally.
+			into powerpoints quickly. Nothing gets uploaded to the server, conversion all runs locally
 		</li>
 		<li>
 			<ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink> — Made for my wife to
