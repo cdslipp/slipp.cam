@@ -91,7 +91,7 @@
 
 <h1>Hi!<br />I'm Cameron</h1>
 <hr />
-<p>I help make live events happen. I also love to make random little software things.</p>
+<p>I help make live events happen. I also like to make random little software projects.</p>
 <p>
 	Need stage management, production management, or other live production services? Find me at <ExternalLink
 		href="https://sherwoodsystems.com">Sherwood Systems</ExternalLink
