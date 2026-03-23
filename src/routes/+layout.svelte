@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import { siteConfig } from '$lib/site-config';
+	import PullToDoNothing from '$lib/PullToDoNothing.svelte';
 
 	let { children } = $props();
 
@@ -60,10 +61,12 @@
 	<!-- JSON-LD -->
 	{@html `<script type="application/ld+json">${jsonLd}</script>`}
 </svelte:head>
-{@render children()}
-<p style="margin-top: 2em; font-size: 0.8em; text-align: center;">
-	Made in Kitchener, Ontario ·
-	<button onclick={() => { dark = !dark; }} style="color: gray; background: none; border: none; font: inherit; cursor: pointer; padding: 0;">
-		{dark ? 'light mode' : 'dark mode'}
-	</button>
-</p>
+<PullToDoNothing>
+	{@render children()}
+	<p style="margin-top: 2em; font-size: 0.8em; text-align: center;">
+		Made in Kitchener, Ontario ·
+		<button onclick={() => { dark = !dark; }} style="color: gray; background: none; border: none; font: inherit; cursor: pointer; padding: 0;">
+			{dark ? 'light mode' : 'dark mode'}
+		</button>
+	</p>
+</PullToDoNothing>
