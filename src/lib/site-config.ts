@@ -2,7 +2,7 @@ export const siteConfig = {
 	name: 'Cameron Slipp',
 	title: 'Cameron Slipp — Live Events & Software',
 	description:
-		'Cameron Slipp is a live events producer and software maker based in Kitchener, Ontario. Stage management, production management, lighting design, and local-first software tools.',
+		'Cameron Slipp is a PM/TD/SM/all around tech person based in Kitchener, Ontario.',
 	url: 'https://slipp.cam',
 	locale: 'en_CA',
 	themeColor: '#000000',

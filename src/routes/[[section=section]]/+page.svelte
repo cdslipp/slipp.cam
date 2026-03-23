@@ -45,8 +45,11 @@
 			into powerpoints quickly. Nothing gets uploaded to the server, conversion all runs locally
 		</li>
 		<li>
-			<ExternalLink href="https://www.musicbingo.xyz/">Music Bingo</ExternalLink> — Made for my wife to
+			<ExternalLink href="https://bingo.slipp.cam">Music Bingo</ExternalLink> — Made for my wife to
 			run music bingo.
+		</li>
+		<li>
+			<ExternalLink href="https://chromewebstore.google.com/detail/playlist-exporter/bapphgjdlipcpledcboppjnokpimflng">Playlist Exporter</ExternalLink> — Chrome extension to export playlists. Integrates with <ExternalLink href="https://bingo.slipp.cam">Music Bingo</ExternalLink>
 		</li>
 	</ul>
 {/snippet}
@@ -109,4 +112,4 @@
 	<hr />
 {/each}
 
-<p><i>Last updated: February 2026</i></p>
+<p><i>Last updated: March 2026</i></p>
